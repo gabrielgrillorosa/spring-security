@@ -14,8 +14,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 
 @SuppressWarnings("deprecation")
-@Configuration
-@EnableWebSecurity
+//@Configuration
+//@EnableWebSecurity
 public class ResourceServerConfig extends WebSecurityConfigurerAdapter{
      
     @Override
@@ -40,13 +40,13 @@ public class ResourceServerConfig extends WebSecurityConfigurerAdapter{
     }
 
     
-    @Bean
+    //@Bean
     @Override
     protected AuthenticationManager authenticationManager() throws Exception {        
         return super.authenticationManager();
     }
 
-    @Bean
+    //@Bean
     public PasswordEncoder passwordEncoder() {
         return NoOpPasswordEncoder.getInstance();
     }
