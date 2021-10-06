@@ -1,4 +1,4 @@
-package com.gabriel.teste.autenticacao.api.config;
+package com.gabriel.teste.autenticacao.api.handlerException.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
