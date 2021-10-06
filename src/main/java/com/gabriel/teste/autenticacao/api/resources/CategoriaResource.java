@@ -17,7 +17,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.gabriel.teste.autenticacao.Event.RecursoCriadoEvent;
+
+import com.gabriel.teste.autenticacao.api.Event.RecursoCriadoEvent;
 import com.gabriel.teste.autenticacao.api.model.Categoria;
 import com.gabriel.teste.autenticacao.api.services.CategoriaRepository;
 

@@ -1,4 +1,4 @@
-package com.gabriel.teste.autenticacao.Event;
+package com.gabriel.teste.autenticacao.api.Event;
 
 import javax.servlet.http.HttpServletResponse;
 

@@ -1,4 +1,4 @@
-package com.gabriel.teste.autenticacao.Event.Listner;
+package com.gabriel.teste.autenticacao.api.Event.Listener;
 
 
 import java.net.URI;
@@ -8,7 +8,7 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.gabriel.teste.autenticacao.Event.RecursoCriadoEvent;
+import com.gabriel.teste.autenticacao.api.Event.RecursoCriadoEvent;
 
 @Component
 public class RecursoCriadoListner implements ApplicationListener<RecursoCriadoEvent> {
